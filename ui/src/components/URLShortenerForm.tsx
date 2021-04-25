@@ -1,4 +1,4 @@
-import { Input, Button, Box, Heading, InputGroup } from "@chakra-ui/react";
+import { Input, Button, Box, InputGroup } from "@chakra-ui/react";
 import axios from "axios";
 import { useState } from "react";
 import { SERVER_ENDPOINTS } from "../config";
