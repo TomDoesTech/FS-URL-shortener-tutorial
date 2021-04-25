@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  url-shortener-server:
+    restart: always
+    container_name: url-shortener-server
+    env_file:
+      - .env
+    environment: 
+      - NODE_ENV=production
+    build:
+      context: ./
+    image: url-shortener-server
